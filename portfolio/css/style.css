@@ -9,6 +9,7 @@ hr {
 	height: 1px; 
 	border-width:0;
 	background-color: #747704;
+	max-width: 100%;
 }
 h2 {
     font-size: 1.75em;
@@ -25,7 +26,7 @@ h4 {
 	color:#f8981c;
 }
 .container {
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     background-color: #c8cec9;
     max-width: 100%;
@@ -56,12 +57,10 @@ h4 {
 
 @media (max-width: 549px){
 	.title-super {
-		font-size: 30px;
+	font-size: 30px;
         width:100%;
 	}
-    .main-img {
-        order: -1;
-    }
+  
 }
 
 @media (min-width: 550px) and (max-width:800px) {
@@ -81,7 +80,5 @@ h4 {
         margin-left:auto;
         margin-right:auto;
        } 
-    .info {
-        flex-shrink: 1;
-    }
+    
     
