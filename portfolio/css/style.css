@@ -60,7 +60,7 @@ h4 {
         width:100%;
 	}
     .main-img {
-        order: 2;
+        order: -1;
     }
 }
 
