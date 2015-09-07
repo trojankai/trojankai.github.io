@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-	color:#f8981c;
+	color:#f8241c;
 }
 .container {
     display: flex;
@@ -32,10 +32,7 @@ h4 {
     max-width: 100%;
 }
 
-.info {
-    max-width: 100%;
-    
-}
+
 
 .text-muted {
 	color: #999;
