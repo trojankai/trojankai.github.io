@@ -69,7 +69,9 @@ h4 {
         width:100%;
     }
     .row {
-	   margin: 5px 0 5px 0;
+        margin: 5px 0 5px 0;
+        max-width: 100%;
+        align-items: center;
 }
     }
 
