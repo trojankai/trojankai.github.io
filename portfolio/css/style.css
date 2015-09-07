@@ -59,9 +59,7 @@ h4 {
 		font-size: 30px;
         width:100%;
 	}
-    .main-img {
-        order: -1;
-    }
+   
 }
 
 @media (min-width: 550px) and (max-width:800px) {
