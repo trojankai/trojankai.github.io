@@ -26,7 +26,7 @@ h4 {
 	color:#f8241c;
 }
 .container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     background-color: #c8cec9;
     max-width: 100%;
