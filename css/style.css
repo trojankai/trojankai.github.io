@@ -5,10 +5,14 @@ body {
 p {
     
     color: #330000;
-    font-size: 30px;
+    font-size: 48px;
     
 }
 
+a:hover {
+    text-decoration: none;
+    color: #04878b;
+}
 .container {
     max-width: 800px;
     }

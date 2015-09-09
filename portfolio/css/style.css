@@ -32,7 +32,7 @@ h4 {
     max-width: 100%;
 }
 
-.main_img {
+img.main-img {
 	border: 2px;
     border-color: darkred;
 }
@@ -64,6 +64,13 @@ h4 {
 	    max-width: 100%;
         
 }
+    .col-md-4{
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+    .text-center {
+	   text-align: inherit;
+}
 }
 
 @media (min-width: 550px) and (max-width:800px) {
@@ -74,12 +81,15 @@ h4 {
     .row {
         margin: 5px 0 5px 0;
         max-width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
+}
+    .text-center {
+	   text-align: inherit;
 }
     }
 
-
-@media (min-width: 800px) {
+@media screen and ()
+@media (min-width: 960px) {
      
     .container{
         display: block;
@@ -87,5 +97,4 @@ h4 {
         margin-left:auto;
         margin-right:auto;
        } 
-    
     
