@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
-	color: #747704;
+	color: #1d0904;
 	font-weight: 300;
 	background-color: #000000;
 }
@@ -32,7 +32,7 @@ h4 {
     max-width: 100%;
 }
 
-    .main_img {
+.main_img {
 	border: 2px;
     border-color: darkred;
 }
