@@ -1,18 +1,21 @@
-body {
-    color: #990;
-}
 
 p {
     
-    color: #330000;
-    font-size: 48px;
+  color: #330000;
+  font-size: 48px;
     
 }
 
 a:hover {
-    text-decoration: none;
-    color: #04878b;
+	text-decoration: none;
+  color: #04878b;
 }
+/*
 .container {
-    max-width: 800px;
+	max-width: 800px;
     }
+*/
+.small {
+	font-size: .9rem;
+	color:black;
+}
