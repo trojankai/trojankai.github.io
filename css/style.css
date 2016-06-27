@@ -1,21 +1,20 @@
 
-p {
-    
-  color: #330000;
-  font-size: 48px;
-    
-}
-
-a:hover {
+a:hover{
 	text-decoration: none;
   color: #04878b;
 }
-/*
-.container {
-	max-width: 800px;
-    }
-*/
-.small {
-	font-size: .9rem;
-	color:black;
+
+.jumbotron {
+	text-align: center;
+}
+
+#j_content{
+  color: #167db6;
+  text-transform: uppercase;
+}
+.udacity {
+	text-transform: uppercase;
+	color: #5f7886;
+	margin-bottom: 15px;
+	
 }
