@@ -1,20 +1,22 @@
 
-a:hover{
+a:focus, a:hover{
+	color: #202929;
 	text-decoration: none;
-  color: #04878b;
 }
 
 .jumbotron {
 	text-align: center;
+	background: #ffd3cd;
 }
 
 #j_content{
-  color: #167db6;
-  text-transform: uppercase;
+  color: #403d3d;
+  text-transform: capitalize;;
 }
 .udacity {
-	text-transform: uppercase;
-	color: #5f7886;
+	text-transform: capitalize;;
+	color: #717171;
 	margin-bottom: 15px;
-	
 }
+p{
+	color: rgb(35, 36, 40);
