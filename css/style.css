@@ -1,16 +1,17 @@
 
 a:focus, a:hover{
-	color: #202929;
+	color: #c8d0d0;
 	text-decoration: none;
 }
-
-.jumbotron {
-	text-align: center;
-	background: #ffd3cd;
+.container .jumbotron, .container-fluid .jumbotron{
+	border-radius: 0;
+}
+body{
+	background: #333333;
 }
 
 #j_content{
-  color: #403d3d;
+  color: #b1cceb;
   text-transform: capitalize;;
 }
 .udacity {
@@ -19,4 +20,5 @@ a:focus, a:hover{
 	margin-bottom: 15px;
 }
 p{
-	color: rgb(35, 36, 40);
+	color: #e9e9e9;
+}

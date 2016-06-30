@@ -3,13 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TROJANKAI</title>
+    <title>ALL ABOUT TROJANKAI</title>
 
     <link defer rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link defer rel="stylesheet" href="css/style.css">
+    <style>
+    .square {
+      width: 300px;
+      height: 300px;
+    }
+
+    .navbar-inverse .navbar-brand{
+      color: white;
+    }
+    .jumbotron {
+      text-align: left;
+    	background: #6d7482;
+    	background: url("assets/images/code.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -22,10 +39,11 @@
         </div>
 
         <div class="collapse navbar-collapse" id="bs-nav-demo">
-          <!-- <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav">
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-          </ul> -->
+            <li><a href="#">Projects</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -38,26 +56,24 @@
       		<h3 class="udacity">Udacity Projects</h3>
       	</div>
       </div>
-      <div class="row text-center">
+      <div class="row text-left">
         <div class="col-md-4 col-xs-6">
-          <a href = "//trojankai.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html">Web Optimization <img src="assets/images/webopt.jpg" class="img-thumbnail"/></a>
+          <a href = "//trojankai.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html">Web Optimization <img src="assets/images/webopt.jpg" class="img-thumbnail  img-responsive"/></a>
           <p>This was an exercise in Web Optimization, specifically for Cam's Pizzeria, using the Google optimization concept of RAIL</p>
         </div>
         <div class="col-md-4 col-xs-6">
-          <a href = "//trojankai.github.io/arcade-game-clone/index.html">Arcade Game Clone</a>
+          <a href = "//trojankai.github.io/arcade-game-clone/index.html">Arcade Game Clone<img src="assets/images/game.jpg" class="img-thumbnail  img-responsive"/></a>
+          <p>this was an assignment to create an old school arcade game. it was an introduction to Object Oriented Programming</p>
         </div>
         <div class="col-md-4 col-xs-6">
-          <a href = "//trojankai.github.io/FEND-resume/index.html">FEND Resume</a>
+          <a href = "//trojankai.github.io/FEND-resume/index.html">FEND Resume<img src="assets/images/resume.jpg" class="img-thumbnail  img-responsive"/></a>
+          <p>Resume using Google Maps API and JSON</p>
         </div>
 
       </div>
-
-
-
     </div>
 
-
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
