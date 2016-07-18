@@ -14,11 +14,27 @@ body{
   color: #b1cceb;
   text-transform: capitalize;;
 }
-.udacity {
-	text-transform: capitalize;;
-	color: #717171;
-	margin-bottom: 15px;
+.projects {
+	text-transform: uppercase;
+	color: #d8d8d8;
+	margin-bottom: 25px;
+
 }
 p{
 	color: #e9e9e9;
+}
+.square {
+	width: 200px;
+	height: 200px;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+.headshot{
+	width: 100px;
+	border: 2px solid;
+	}
+.active_link {
+	text-decoration: underline;
+	color: white;
 }
