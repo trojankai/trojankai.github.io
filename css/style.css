@@ -1,4 +1,6 @@
-
+*{
+	border: white solid 2px;
+}
 a:focus, a:hover{
 	color: #c8d0d0;
 	text-decoration: none;
